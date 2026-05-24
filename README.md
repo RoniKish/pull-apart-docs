@@ -8,6 +8,9 @@ Browse the `docs/` folder for guides covering installation, configuration, usage
 
 ## Release Notes
 
+### v0.1.1
+- Daily limit of 3 per developer per repository is now enforced
+
 ### v0.1.0
 
 - Initial release.
