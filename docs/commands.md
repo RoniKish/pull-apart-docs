@@ -25,16 +25,3 @@ pull-apart responds to two comment-based commands on GitHub pull requests.
 - Very large files may be rejected depending on the configured input size limit.
 
 ---
-
-## `@pull-apart /close`
-
-**Where:** Any comment on a pull request that was opened by the pull-apart app (e.g. one of the split PRs it created).
-
-**What it does:**
-
-1. Closes the pull request.
-2. Deletes the head branch (skipped if the branch is on a fork or is otherwise protected).
-3. Reacts to your comment with a 👍.
-
-**Restriction:** This command only works on PRs opened by the app itself. If the PR was opened by a human, the command is silently ignored.
-

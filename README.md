@@ -8,6 +8,11 @@ Browse the `docs/` folder for guides covering installation, configuration, usage
 
 ## Release Notes
 
+### v0.2
+- Added OAuth to allow the user be the new PR's owner 
+- Remove the /close command
+- Changed App Logo
+
 ### v0.1.1
 - Daily limit of 3 per developer per repository is now enforced
 
